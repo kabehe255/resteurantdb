@@ -26,13 +26,14 @@ insert into custumers(CustumerID, Name, Email, PhoneNo, Adress) VALUES(null, 'ai
 (null, 'Linda Miller', 'lindamiller@gmail.com', '0737373737', 'Ubungo'),
 (null, 'Samuel Taylor', 'samueltaylor@gmail.com', '0789898989', 'Gongo la Mboto');
 
-USE resteurant;
+use resteurant;
 
 CREATE TABLE orders(
-	OrderID INT PRIMARY KEY AUTO_INCREMENT,
-	OderData varchar(30),
-	TotalAmount varchar(30),
-	CustumerID INT
+    OrderID int PRIMARY KEY AUTO_INCREMENT,
+    OrderTime datetime,
+    TotalAmount decimal(10.2),
+    custumerID int, 
+    FOREIGN KEY (custumerID) REFERENCES custumers(custumerID)
 );
 
 
@@ -62,3 +63,8 @@ INSERT INTO dishes(DishesID,Name,Description,Price,Categories) VALUES
 (NULL, 'birian', 'birian kuku', '3000.78', 'uhuru'),
 (NULL, 'chipsi', 'chipsi mshikaki', '6500.00', 'uhuru');
 
+use resteurant;
+INSERT INTO orders(OrderID, OrderTime, TotalAmount, custumerID) VALUES (1,now(),3000.45,1),
+(2,now(),3000.45,2),
+(3,now(),3000.45,3),
+(4,now(),3000.45,4);
