@@ -24,7 +24,16 @@ insert into custumers(CustumerID, Name, Email, PhoneNo, Adress) VALUES(null, 'ai
 (null, 'Eva Brown', 'evabrown@gmail.com', '0767676767', 'Magomeni'),
 (null, 'James Davis', 'jamesdavis@gmail.com', '0727272727', 'Kimara'),
 (null, 'Linda Miller', 'lindamiller@gmail.com', '0737373737', 'Ubungo'),
-(null, 'Samuel Taylor', 'samueltaylor@gmail.com', '0789898989', 'Gongo la Mboto');
+(null, 'Samuel Taylor', 'samueltaylor@gmail.com', '0789898989', 'Gongo la Mboto'),
+(null, 'Benjamin Lee', 'benjaminlee@example.com', '0721098765', 'Kimara'),
+(null, 'Emma White', 'emmawhite@example.com', '0710987654', 'Kibaha'),
+(null, 'Noah Harris', 'noahharris@example.com', '0709876543', 'Tabata'),
+(null, 'Isabella Martin', 'isabellamartin@example.com', '0798765432', 'Segerea'),
+(null, 'Liam Clark', 'liamclark@example.com', '0787654321', 'Mwananyamala'),
+(null, 'Mia Lewis', 'mialewis@example.com', '0776543210', 'Kawe'),
+(null, 'Alexander Walker', 'alexanderwalker@example.com', '0765432109', 'Msasani'),
+(null, 'Charlotte Hall', 'charlottehall@example.com', '0754321098', 'Magomeni'),
+(null, 'William Young', 'williamyoung@example.com', '0743210987', 'Goba');
 
 use resteurant;
 
